@@ -8,7 +8,7 @@ export default [
     startDate: "",
     endDate: "",
     description:
-      "In 2015 I went on a road trip from Sacramento to San Francisco by taking the scenic route. I traveled through Clear Lake to Fort Bragg and slept in my car. After visiting Glass Beach at Sunrise, I began the almost 5 hour drive from Fort Bragg to San Francisco via CA-1, California's coastal highway. I stopped at two lighthouses along the way in Point Arena and Point Reyes. Point Arena was nice, but Point Reyes was the one I was really excited(read: nostalgic) for, as I only had vague memories of it from going there when I was very young. Even though I was tired from driving, sunlight dwindling, and still more than an hour from SF, I made the twenty minute detour to visit Point Reyes. It was a hike from the parking lot, but, completely unplanned, I reached the lookout point exactly in the middle of golden hour and took the photo you see here. One of the most beautiful experiences I've had.",
+      "In 2015 I went on a road trip from Sacramento to San Francisco by taking the scenic route. I traveled through Clear Lake to Fort Bragg and slept in my car in a motel parking lot. After visiting Glass Beach at Sunrise, I began the almost 5 hour drive from Fort Bragg to San Francisco via CA-1, California's coastal highway. I stopped at two lighthouses along the way in Point Arena and Point Reyes. Point Arena was nice, but Point Reyes was the one I was really excited(read: nostalgic) for, as I only had vague memories of it from going there when I was very young. Even though I was tired from driving, sunlight dwindling, and still more than an hour from SF, I made the hour detour(30min. there and back to CA-1) to visit Point Reyes. It was a hike from the parking lot, but, completely unplanned, I reached the lookout point exactly in the middle of golden hour and took the photo you see here. One of the most awe inspiring experiences I've ever had.",
     imageUrl: "/images/point-reyes.jpg",
   },
   {
@@ -46,5 +46,17 @@ export default [
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, recusandae tempore distinctio omnis est, unde eos quod atque, fugiat necessitatibus illum aspernatur autem repellendus. Minima dolores ea corrupti libero ex porro nemo veritatis doloribus eaque reiciendis nostrum magni accusamus consequatur, cupiditate eius, beatae ipsum vitae iste amet necessitatibus omnis enim commodi doloremque? Dicta, porro? Sapiente dolore facere dignissimos consequatur, officia, aut asperiores autem natus impedit distinctio optio, recusandae expedita voluptate adipisci ducimus minima sed vitae.",
     imageUrl: "/images/san-francisco-2.jpg",
+  },
+  {
+    title: "California State Fair",
+    location: "Sacramento, CA - Cal Expo",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/38%C2%B035'36.9%22N+121%C2%B026'12.9%22W/@38.5935828,-121.4369029,1183m/data=!3m1!1e3!4m4!3m3!8m2!3d38.5935828!4d-121.4369029?entry=ttu",
+    date: "July 2015",
+    startDate: "",
+    endDate: "",
+    description:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, recusandae tempore distinctio omnis est, unde eos quod atque, fugiat necessitatibus illum aspernatur autem repellendus. Minima dolores ea corrupti libero ex porro nemo veritatis doloribus eaque reiciendis nostrum magni accusamus consequatur, cupiditate eius, beatae ipsum vitae iste amet necessitatibus omnis enim commodi doloremque? Dicta, porro? Sapiente dolore facere dignissimos consequatur, officia, aut asperiores autem natus impedit distinctio optio, recusandae expedita voluptate adipisci ducimus minima sed vitae.",
+    imageUrl: "/images/ca-state-fair.jpg",
   },
 ];
