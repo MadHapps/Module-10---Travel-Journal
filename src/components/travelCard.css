@@ -88,3 +88,22 @@
         border-radius: 4px;;
     }
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 850px) {
+    .travel-card {
+        grid-template-areas:
+            "image image cntry cntry"
+            "image image title title"
+            "image image dates dates"
+            "image image descr descr"
+        ;
+    }
+
+    .card-img {
+        margin-left: .75em;
+        align-self: center;
+        border-radius: 4px;
+    }
+  }
