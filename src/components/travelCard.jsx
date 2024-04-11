@@ -1,14 +1,13 @@
 import "./travelCard.css";
 
-export default function TravelCard(props) {
-  const { title, location, googleMapsUrl, date, description, imageUrl } =
-    props.data;
+export default function TravelCard({data}) {
+  const { title, location, googleMapsUrl, date, description, imageUrl } = data;
 
   return (
     <div className="travel-card">
       <div className="card-info-wrapper">
         <div className="card-map">
-          <i className="fa-solid fa-location-dot fa-2xs"></i>
+          <i className="fa-solid fa-location-dot fa-xs"></i>
           <p className="location">{location}</p>
           <a href={googleMapsUrl} className="view-map-btn" target="_blank">
             View on Google Maps
