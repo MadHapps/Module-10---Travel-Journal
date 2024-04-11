@@ -13,10 +13,7 @@
     gap: .4em;
     grid-template-areas: 
       "image"
-      "cntry"
-      "title"
-      "dates"
-      "descr"
+      "infor"
     ;
   
     &::after {
@@ -36,9 +33,15 @@
     justify-self: start;
     padding-inline: .75rem;
   }
+
+  .card-info-wrapper {
+    grid-area: infor;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
   
   .card-map {
-    grid-area: cntry;
     display: flex;
     align-items: center;
     gap: .33em;
@@ -57,19 +60,17 @@
   }
   
   .card-title {
-    grid-area: title;
     font-size: 1.95rem;
     margin-bottom: .33em;
     text-align: left;
   }
   
   .card-date {
-    grid-area: dates;
     font-size: var(--card-text-size);
+    margin-bottom: .5em;
   }
   
   .card-description {
-    grid-area: descr;
     text-align: left;
     font-size: var(--card-text-size);
     line-height: calc(var(--card-text-size) * 1.5);
@@ -83,27 +84,18 @@
 
   }
 
-@media (min-width: 1200px) {
-    .card-img {
-        border-radius: 4px;;
-    }
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 850px) {
     .travel-card {
         grid-template-areas:
-            "image image cntry cntry"
-            "image image title title"
-            "image image dates dates"
-            "image image descr descr"
+            "image image infor infor"
         ;
     }
 
     .card-img {
         margin-left: .75em;
         align-self: center;
-        border-radius: 4px;
+        border-radius: 6.7px;
     }
   }

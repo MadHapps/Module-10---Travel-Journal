@@ -6,16 +6,18 @@ export default function TravelCard(props) {
 
   return (
     <div className="travel-card">
-      <div className="card-map">
-        <i className="fa-solid fa-location-dot fa-2xs"></i>
-        <p className="location">{location}</p>
-        <a href={googleMapsUrl} className="view-map-btn" target="_blank">
-          View on Google Maps
-        </a>
+      <div className="card-info-wrapper">
+        <div className="card-map">
+          <i className="fa-solid fa-location-dot fa-2xs"></i>
+          <p className="location">{location}</p>
+          <a href={googleMapsUrl} className="view-map-btn" target="_blank">
+            View on Google Maps
+          </a>
+        </div>
+        <h2 className="card-title">{title}</h2>
+        <h3 className="card-date">{date}</h3>
+        <p className="card-description">{description}</p>
       </div>
-      <h2 className="card-title">{title}</h2>
-      <h3 className="card-date">{date}</h3>
-      <p className="card-description">{description}</p>
       <img className="card-img" src={imageUrl} alt="" />
     </div>
   );
