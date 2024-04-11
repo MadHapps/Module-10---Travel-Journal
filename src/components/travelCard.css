@@ -80,4 +80,11 @@
     justify-self: center;
     width: 100%;
     margin-bottom: .5em;
+
   }
+
+@media (min-width: 1200px) {
+    .card-img {
+        border-radius: 4px;;
+    }
+}

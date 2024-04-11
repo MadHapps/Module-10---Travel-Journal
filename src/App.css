@@ -4,6 +4,11 @@
   text-align: center;
 }
 
+.app > *:not(header) {
+  max-width: 1200px;
+  margin-inline: auto;
+}
+
 /* HEADER */
 
 header {
