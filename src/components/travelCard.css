@@ -7,7 +7,7 @@
   }
   
   .travel-card {
-    --card-text-size: .64rem;
+    --card-text-size: .8rem;
     position: relative;
     display: grid;
     gap: .4em;
@@ -58,7 +58,7 @@
   
   .card-title {
     grid-area: title;
-    font-size: 1.5625rem;
+    font-size: 1.95rem;
     margin-bottom: .33em;
     text-align: left;
   }
