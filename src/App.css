@@ -1,6 +1,36 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+}
+
+/* HEADER */
+
+header {
+  --max-height: 3.4375rem;
+  width: 100%;
+  min-height: var(--max-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .33em;
+  background-color: #F55A5A;
+  padding: calc(var(--max-height) / 2.5);
+  margin-bottom: 2.5rem;
+  box-shadow: 0 -8px 24px #282828;
+}
+
+.header-text {
+  color: #F5F5F5;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: -.05em;
+}
+
+.fa-earth-americas {
+  color: #F5F5F5;
+}
+
+.fa-location-dot {
+  color: #F55A5A;
 }
