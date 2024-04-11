@@ -1,0 +1,83 @@
+/* TRAVEL CARD */
+
+.travel-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .travel-card {
+    --card-text-size: .64rem;
+    position: relative;
+    display: grid;
+    gap: .4em;
+    grid-template-areas: 
+      "image"
+      "cntry"
+      "title"
+      "dates"
+      "descr"
+    ;
+  
+    &::after {
+      position: absolute;
+      content: '';
+      border: 2px solid rgba(136, 136, 136, 0.125);
+      border-radius: 20%;
+      width: 95%;
+      bottom: -1em;
+      left: 0;
+      right: 0;
+      margin-inline: auto;
+    }
+  }
+  
+  .travel-card > *:not(img) {
+    justify-self: start;
+    padding-inline: .75rem;
+  }
+  
+  .card-map {
+    grid-area: cntry;
+    display: flex;
+    align-items: center;
+    gap: .33em;
+  }
+  
+  .location {
+    font-size: var(--card-text-size);
+    font-weight: 500;
+    letter-spacing: calc(var(--card-text-size) * .17);
+  }
+  
+  .view-map-btn {
+    margin-left: .5em;
+    font-size: var(--card-text-size);
+    color: #918E9B;
+  }
+  
+  .card-title {
+    grid-area: title;
+    font-size: 1.5625rem;
+    margin-bottom: .33em;
+    text-align: left;
+  }
+  
+  .card-date {
+    grid-area: dates;
+    font-size: var(--card-text-size);
+  }
+  
+  .card-description {
+    grid-area: descr;
+    text-align: left;
+    font-size: var(--card-text-size);
+    line-height: calc(var(--card-text-size) * 1.5);
+  }
+  
+  .card-img {
+    grid-area: image;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: .5em;
+  }
