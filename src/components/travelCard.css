@@ -7,7 +7,7 @@
   }
   
   .travel-card {
-    --card-text-size: .8rem;
+    --card-text-size: .75rem;
     position: relative;
     display: grid;
     gap: .4em;
